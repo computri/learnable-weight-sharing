@@ -1,0 +1,15 @@
+epochs: 100
+log_wandb: 1
+model: "GCNN"
+augment: 1
+hidden_channels: 32
+batch_size: 64
+seed: 0
+learning_rate: 0.01
+cuda: 1
+group: "so(2)"
+transform_labels: "all"
+n_group: 4
+num_layers: 4
+kernel_size: 5
+dataset: "rotatedmnist"
